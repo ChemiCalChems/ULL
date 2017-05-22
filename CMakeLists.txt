@@ -1,6 +1,6 @@
 project (ULL)
 
-set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} "${CMAKE_SOURCE_DIR}/cmake_modules")
+set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} "${CMAKE_SOURCE_DIR}/cmake/Modules")
 
 set (CMAKE_CXX_FLAGS "-std=c++14 -Werror -Wall -pthread")
 
